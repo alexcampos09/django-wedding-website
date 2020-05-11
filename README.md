@@ -99,6 +99,9 @@ This is developed for Python 3 and Django 2.2.
 
 It's recommended that you setup a virtualenv before development.
 
+Be mindful that you might need to install postgres to be able to use it.
+On a Mac you might need to install homebrew and than `brew install postgresql`.
+
 Then just install requirements, migrate, and runserver to get started:
 
 ```bash
@@ -114,7 +117,7 @@ Searching for the text on a page in the repository is a great way to find where 
 
 ### Sending email
 
-This application uses Django's email framework for sending mail. 
+This application uses Django's email framework for sending mail.
 You need to modify the `EMAIL_HOST`, `EMAIL_PORT` and other associated variables in `settings.py` in order
 to hook it into a real server.
 
